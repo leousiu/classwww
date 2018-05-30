@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Color</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<script language="javascript" type="text/javascript">
+    //In pixels
+    var amountToMoveTotal = 1000;
+    var amountToMovePerStep = 10;
+    //In milliseconds
+    var timeToWaitBeforeNextIncrement = 20;
+
+    var amountToFadeTotal = 1.0;
+    var amountToFadePerStep = 0.01;
+</script>
+<body> 
+        <center><h3>Hover over pooh to change the background.</p></h3>
+    <img src="http://www.pngall.com/wp-content/uploads/2017/03/Winnie-The-Pooh-PNG-Images.png" width="50%" height="50%"  onclick="changeColor()" onmouseover="moveRight(this, amountToMoveTotal, amountToMovePerStep, timeToWaitBeforeNextIncrement)"/></center>
+    
+</body>
+
+</html>

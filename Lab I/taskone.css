@@ -1,0 +1,15 @@
+a:link{
+color: blueviolet;
+text-decoration: none;
+}
+a:visited{
+    color: chartreuse;
+    text-decoration: none;
+}
+a:active{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Cinzel', serif;
+}
