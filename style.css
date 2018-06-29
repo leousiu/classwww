@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     color: blue;
 }
@@ -10,4 +11,79 @@ a:hover{
 }
 .dark{
     font-weight: 2px bold;
+=======
+
+.bgo{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    display: block;
+    background-image: url('https://hdqwalls.com/download/avengers-infinity-war-2018-4k-cq-1920x1080.jpg');
+    width: 1200px;
+    height: 800px;
+
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+.bg{
+    position:sticky;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+    color:#FFF;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    text-decoration: none;
+    display: inline-blocks;
+    background: #000;
+    border:20px solid;
+    padding:10px;
+    margin:0px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+nav a{
+    float: left;
+    padding-right:40px;
+    font-family: 'Skranji', cursive;
+    font-size: 1.5em;
+}
+nav a :before{
+    color: #FFF;
+}
+nav a :after{
+    color: aquamarine;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+.footer{
+    float: left;
+    padding-right:40px;
+    font-family: 'Skranji', cursive;
+    font-size: 1.5em;
+}
+.small{
+    font-size: 1em;
+}
+.p{
+    padding-bottom: 40px;
+}
+img{
+    padding-bottom: 40px;
+    border-radius: 40px;
+>>>>>>> 70c980668febab5e23d30cbb096169f0d823e32b
 }

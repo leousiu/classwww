@@ -1,0 +1,58 @@
+.row {
+    display: flex;
+}
+.row a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 50px;
+    color:yellow;
+}
+.column {
+    padding-left: 10%;
+    flex: 50%;
+}
+/* html { 
+    background: url('') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+  .white{
+      color:rgb(25, 97, 97);
+      font-family: 'Kavivanar', cursive;
+  }
+  .yellow{
+      color:yellow;
+  }
+  .different{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+    display: block;
+    background-image: url('https://pre00.deviantart.net/9254/th/pre/f/2015/130/b/1/house_md_by_kalivod-d8suebz.jpg');
+    width: 1200px;
+    height: 800px;
+  
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+  
+  .content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
