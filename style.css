@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background: yellow;
+    color:blue;
+}
+.dark{
+    font-weight: 2px bold;
+}
